@@ -1,0 +1,157 @@
+/* header styles */
+header {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: white;
+	margin-bottom: -20px;
+	border-bottom: 1px solid white;
+	height: 55px;
+}
+
+header ul li {
+	list-style-type: none;
+	font-family: Arial;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#logo {
+	float: left;
+	margin-left: -15px;
+	margin-top: -7px;
+}
+
+#logo img {
+	width: 35px;
+	float: left;
+}
+
+#search {
+	width: 50%;
+	margin: -22px 40px 10px 55px;
+	padding-top: 10px;
+}
+
+#search-box {
+	width: 1050px;
+	height: 25px;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #f2f2f2;
+	margin: -190;
+	border: 0px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 2em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 2em;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 2em;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 2em;
+}
+
+#nav-buttons {
+	float: right;
+	margin: -50px -230px -10px 40px;
+}
+
+#nav-buttons a {
+	color: #c2c2d6;
+	padding-right: 30px;
+	font-size: 1.8em;
+}
+ #nav-buttons a:hover {
+ 	color: rgb(33, 25, 34);
+ }
+
+ hr {
+ 	margin-bottom: -30px;
+ 	font-size: .8em;
+ }
+
+
+#wrapper {
+	width: 90%;
+	max-width: 1700px;
+	min-width: 800px;
+	margin: 50px auto;
+}
+
+#columns {
+	-webkit-column-count: 4;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 4;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 4;
+	column-gap: 10px;
+	column-fill: auto;
+}
+
+.pin {
+	box-shadow: 0 rgba(34, 25, 25, 0.4);
+	margin: 0px 2px 15px 0px;
+	padding: 15px 15px 5px 15px;
+}
+
+.pin img {
+	width: 90%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	border-radius: 8px;
+}
+
+.pin h1{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.pin p {	
+	font: 15px/18px Arial, sans-serif;
+	color: #333;
+}
+
+.pin p a {
+	font-size: 14px;
+	color: grey;
+}
+
+.clearfooter {
+	height: 330px;
+	clear: both;
+}
+
+footer ul{
+	float: right;
+	margin-right: -50px;
+}
+
+.add_pin a {
+	color: #808080;
+	font-size: 3em;
+}
+
+.questions a {
+	color: #808080;
+	font-size: 3em;
+}
+
+.p-button a {
+	font-size: 1.3em;
+	color: #808080;
+	background-color: #f2f2f2;
+	border: .5px solid #bfbfbf;
+	border-radius: 3px;
+	margin-left: -10px;
+}
+
+.navs a:hover {
+	color: rgb(33, 25, 34);
+}
